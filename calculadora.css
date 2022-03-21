@@ -1,0 +1,32 @@
+.calculadora {
+    position: absolute;
+    background-color: aliceblue;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    right: 40%;
+    align-items: center;
+}
+
+.linha0, .linha1, .linha2, .linha3, .linha4 {
+
+    background-color: aquamarine;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+
+}
+.linha0:hover, .linha1:hover, .linha2:hover, .linha3:hover, .linha4:hover {
+    background-color: aqua;
+}
+#result {
+    text-align: center;
+    background-color: rgb(0,0,0,0.2);
+    width: 182px;
+    height: 20px;
+    margin: 2.5px;
+    color: black;
+    text-align: left;
+
+}
