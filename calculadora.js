@@ -18,6 +18,6 @@ function equal() {
     }
     else
     {
-        window.alert('Nada para calcular!')
+        window.alert('Nothing writed!')
     }
 }
