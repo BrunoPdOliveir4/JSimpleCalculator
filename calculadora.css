@@ -1,16 +1,19 @@
 .calculator {
-    position: absolute;
-    background-color: aliceblue;
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    right: 40%;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    scale: 1.5;
+    padding: 5em;
+}
+.content {
+    padding: 1em;
+    background-color: grey;
+    border: solid;
 }
 
 .lines {
 
-    background-color: aquamarine;
+    background-color: white;
     width: 40px;
     height: 40px;
     font-size: 15px;
@@ -18,15 +21,14 @@
 
 }
 .lines:hover {
-    background-color: aqua;
+    background-color: #00000005;
 }
 #result {
-    text-align: center;
-    background-color: rgb(0,0,0,0.2);
-    width: 182px;
+    background-color:white;
+    width: 175px;
     height: 20px;
     margin: 2.5px;
     color: black;
-    text-align: left;
-
+    text-align: right;
+    border: solid;
 }
