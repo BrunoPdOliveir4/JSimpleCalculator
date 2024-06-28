@@ -1,0 +1,34 @@
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 1.5;
+    padding: 5em;
+}
+.content {
+    padding: 1em;
+    background-color: grey;
+    border: solid;
+}
+
+.lines {
+
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+
+}
+.lines:hover {
+    background-color: #00000005;
+}
+#result {
+    background-color:white;
+    width: 175px;
+    height: 20px;
+    margin: 2.5px;
+    color: black;
+    text-align: right;
+    border: solid;
+}
